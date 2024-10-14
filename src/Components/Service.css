@@ -1,0 +1,22 @@
+
+.S_Card {
+  background: linear-gradient(#26185669 50%, #03BFFF 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+  transition: 0.5s;
+}
+
+.S_Card:hover {
+  background-position: 0 100%;
+}
+.S_Card:hover .S_Icon_Wrapper {
+  background-color: #ffffff;
+  color: #03BFFF;
+}
+.S_Card:hover h3 {
+  color: #ffffff;
+}
+.S_Card:hover p {
+  color: #f0f0f0;
+}

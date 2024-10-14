@@ -1,0 +1,206 @@
+body{
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #ccc;
+}
+
+.social_icon_hover:hover {
+  background: #03bfff;
+  color: white;
+}
+
+
+.protfolio-Scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=Input Style=-=-=-=-=-=-=-=-=-=-=-= */
+
+
+.inputStyleIng[type="text"]:focus ~ .inputStyleIngText,
+.inputStyleIng[type="text"]:not(:placeholder-shown) ~ .inputStyleIngText{
+  @apply text-[#03bfff] bg-[#1E1345] transform -translate-y-[22px] -translate-x-[3px] scale-75 cursor-default;
+}
+.inputStyleIng[type="email"]:focus ~ .inputStyleIngText,
+.inputStyleIng[type="email"]:not(:placeholder-shown) ~ .inputStyleIngText{
+  @apply text-[#03bfff] bg-[#1E1345] transform -translate-y-[22px] -translate-x-[3px] scale-75 cursor-default;
+}
+
+
+
+
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=Testimonial=-=-=-=-=-=-=-=-=-=-=-= */
+
+.bannerDotliId {
+  color: #ffffff45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bannerDotId li {
+  width: 17px;
+}
+@media screen and (max-width: 640px) {
+  #bannerDotId li {
+    width: 7px;
+  }
+}
+#bannerDotId .slick-active .bannerDotliId {
+  color: #03bfff;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=Team=-=-=-=-=-=-=-=-=-=-=-= */
+
+#Slider-track-Team {
+  width: calc(260px * 39);
+  animation: scroll 90s linear infinite;
+}
+#Slider-track-Team:hover {
+  animation-play-state: paused;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-260px * 39));
+  }
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=service=-=-=-=-=-=-=-=-=-=-=-= */
+.service_card_animation {
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  transition-delay: 3s;
+}
+
+.service_card_animation,
+.service_card_animation .service_card_icon {
+  transition: 1s;
+}
+
+.service_card_animation:hover {
+  color: white;
+}
+
+.service_card_animation:hover .service_card_icon {
+  border-color: white;
+  color: white;
+}
+
+.service_card_animation::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 414%;
+  width: 310%;
+  background: #03BFFF;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-128%) translateY(0%) rotate(44deg);
+  z-index: 0;
+}
+
+.service_card_animation:hover::after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=Why-hoose-Us=-=-=-=-=-=-=-=-=-=-=-= */
+
+.why_choose_us_box::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: #1E1345;
+  border-radius: 16px;
+}
+
+
+.why_choose_us_box::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 160%;
+  background: linear-gradient(#03BFFF, #03BFFF);
+  animation: animate 4s linear infinite;
+}
+.why_choose_us_box_container::after{
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: #26185669;
+  border-radius: 16px;
+  z-index: 0;
+}
+
+.why_choose_us_box_container{
+  background-color: #1E1345;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+/* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-{````Protfolio````}_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- */
+.projectCardAnimation .projectCardOnHoverDetails {
+  display: none;
+}
+.projectCardAnimation:hover .projectCardOnHoverDetails {
+  animation: projectlibarAnimationimg 0.5s ease-in forwards;
+  opacity: 0;
+  display: flex;
+  transition: 0.3s;
+}
+
+@keyframes projectlibarAnimationimg {
+  100% {
+    opacity: 10;
+  }
+}
+
+.projectLi p {
+  transition: 0.5s;
+}
+
+.projectLi:hover p {
+  color: #03BFFF;
+}
+
+.projectLi:hover .projectLiBottomBar {
+  animation: projectlibarAnimationli 0.5s ease-in forwards;
+  transition: 0.5s;
+}
+
+@keyframes projectlibarAnimationli {
+  100% {
+    width: var(--bar-width);
+    background: #03BFFF;
+  }
+}
