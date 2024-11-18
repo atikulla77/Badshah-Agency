@@ -1,5 +1,5 @@
 {
-  "name": "hafizur_agency",
+  "name": "badshah_agency",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,6 +22,7 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "react-slick": "^0.30.2",
+    "react-spinners": "^0.14.1",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.3",
     "web-vitals": "^2.1.4"

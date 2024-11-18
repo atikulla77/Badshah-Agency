@@ -48,58 +48,6 @@ const Contact = () => {
       </div>
       <div className="mx-auto xl:w-[1230px] w-[96%] h-[100%] relative z-[1] flex justify-center items-center">
         <div className="flex justify-center w-full xl:py-0 sm:py-[1.3rem] sm4:py-[0.8rem] py-[0.3rem] text-white z-10">
-          {/* <div className="stext1:w-[400px] sm5:w-[700px] w-[98%] GeologicaFont stext1:mx-0 mx-auto">
-            <div className="w-full stext1:text-left text-center">
-              <h4 className="mt-0 mb-1 text-2xl font-medium leading-normal ">
-                Contact Info
-              </h4>
-              <p className="text-sm font-light  ">
-                Always available for freelance work if the right project
-                <br /> comes along, Feel free to contact me!
-              </p>
-              <p className="pt-[2px] mb-6 text-sm font-light ">
-                You can Order me in{" "}
-                <span className="font-semibold">Fiver, UpWork</span>
-              </p>
-            </div>
-            <div className="sm5:w-[400px] w-[93%]">
-              <div>
-                <div className="flex items-center text-left mb-[30px]">
-                  <span className="w-[60px] h-[60px] flex items-center justify-center bg-[#03BFFF] rounded-[50%] text-white">
-                    <IoLocationSharp className="text-[28px]" />
-                  </span>
-                  <div className="ml-[21px] text-left leading-[26px]">
-                    <p className="text-[19px] font-[600]">Location</p>
-                    <span className="text-sm text-[#ffffff9c] ">
-                      Rajshahi, Paba 6210
-                    </span>
-                  </div>
-                </div>
-                <div className="flex items-center text-left mb-[30px]">
-                  <span className="w-[60px] h-[60px] flex items-center justify-center bg-[#03BFFF] rounded-[50%] text-white">
-                    <MdEmail className="text-[28px]" />
-                  </span>
-                  <div className="ml-[21px] text-left leading-[26px]">
-                    <p className="text-[19px] font-[600]">Email</p>
-                    <span className="text-sm text-[#ffffff9c] ">
-                      badshapha@gmail.com
-                    </span>
-                  </div>
-                </div>
-                <div className="flex items-center text-left mb-[30px]">
-                  <span className="w-[60px] h-[60px] flex items-center justify-center bg-[#03BFFF] rounded-[50%] text-white">
-                    <FaPhoneFlip className="text-[28px]" />
-                  </span>
-                  <div className="ml-[21px] text-left leading-[26px]">
-                    <p className="text-[19px] font-[600]">Phone</p>
-                    <span className="text-sm text-[#ffffff9c] ">
-                      +880 130 301 0014
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
           <div className="sm2:w-[700px] w-[100%] GeologicaFont mx-auto text-center lg:pb-0 pb-[1.5rem]">
             <form
               className="sm:px-[0] sm2:px-[1.5rem] sm4:px-[15px] px-0"
