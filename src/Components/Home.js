@@ -23,7 +23,7 @@ import main_image from "../image/Skype_Picture.jpeg";
 function Home() {
   const [countState, setCountState] = useState();
   return (
-    <div className="w-full h-full relative" name="Home">
+    <div className="w-full h-full relative" id="Home">
       <Navber />
       <div className="absolute left-0 top-0 z-0 select-none w-[100%] h-full">
         <img src={bg} className="w-[100%] h-[100%] select-none" />
