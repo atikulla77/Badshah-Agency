@@ -83,7 +83,7 @@ const Service = () => {
             <p className="sm3:text-[20px] text-[18px] font-[600] text-[#fff] pt-[10px]">
               Lead Generation
             </p>
-            <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
+            <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0] KarlaFont">
               Lead Generation the process of generating consumer interest for a
               product or service with the goal of turning that interest into a
               sale.
@@ -106,7 +106,7 @@ const Service = () => {
             <p className="sm3:text-[20px] text-[18px] font-[600] text-[#fff] pt-[10px]">
               Email Marketing
             </p>
-            <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
+            <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0] KarlaFont">
               Email marketing is typically used to create product or brand
               awareness and generate leads or sales.
             </p>
@@ -128,7 +128,7 @@ const Service = () => {
             <p className="sm3:text-[20px] text-[18px] font-[600] text-[#fff] pt-[10px]">
               Data Entry
             </p>
-            <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
+            <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0] KarlaFont">
               Data Entry specialist means that they have to type information
               into an electronic format and create spreadsheets with large
               figures of numbers.
@@ -151,7 +151,7 @@ const Service = () => {
             <p className="sm3:text-[20px] text-[18px] font-[600] text-[#fff] pt-[10px]">
               Data Mining
             </p>
-            <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
+            <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0] KarlaFont">
               Data Mining process of uncovering patterns and other valuable
               information from large data sets.
             </p>
@@ -173,7 +173,7 @@ const Service = () => {
             <p className="sm3:text-[20px] text-[18px] font-[600] text-[#fff] pt-[10px]">
               Virtual Assistant
             </p>
-            <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0]">
+            <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0] KarlaFont">
               Virtual Assistant is a self-employed worker who specializes in
               offering administrative services to clients from a remote
               location, usually a home office.
@@ -196,7 +196,7 @@ const Service = () => {
             <p className="sm3:text-[20px] text-[18px] font-[600] text-[#fff] pt-[10px]">
               Cold Email Marketing
             </p>
-            <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0] ">
+            <p className="text-[#d8d8d8] sm5:text-[15px] sm3:text-[13px] text-[12px] sm5:leading-[1.4] sm3:leading-[1.2] leading-[1.3] tracking-[0.03em] mt-[0] KarlaFont ">
               Cold email marketing is reaching out to prospects you don't know
               by email rather than by cold calling, messages on social media, or
               any other method.

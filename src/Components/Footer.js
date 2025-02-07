@@ -14,7 +14,7 @@ function Footer() {
   return (
     <div className="w-full h-full bg-[#1E1345] " id="footer">
       <footer className="text-white body-font">
-        <div className="xl:w-[1230px] w-[96%] px-5 sm:pb-24 pb-10 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col z-10 relative">
+        <div className="xl:w-[1230px] w-[96%] px-5 sm:py-24 py-10 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col z-10 relative">
           <div className="absolute right-[0px] bottom-0 select-none w-[450px] h-[450px] z-0 overflow-hidden">
             <img
               src={partical1}
