@@ -35,7 +35,7 @@ const Contact = () => {
 
   return (
     <main
-      className={`w-full h-full relative pt-[1.5rem] desktop3:pb-[3rem] pb-[1rem] GeologicaFont bg-[#1E1345]`}
+      className={`w-full h-full relative pt-[1.5rem] GeologicaFont bg-[#1E1345]`}
       id="Contact"
     >
       <div className="w-full text-center text-white relative z-10 sm2:pb-[0px] pb-[15px]">
@@ -48,7 +48,7 @@ const Contact = () => {
       </div>
       <div className="mx-auto xl:w-[1230px] w-[96%] h-[100%] relative z-[1] flex justify-center items-center">
         <div className="flex justify-center w-full xl:py-0 sm:py-[1.3rem] sm4:py-[0.8rem] py-[0.3rem] text-white z-10">
-          <div className="sm2:w-[700px] w-[100%] GeologicaFont mx-auto text-center lg:pb-0 pb-[1.5rem]">
+          <div className="sm2:w-[700px] w-[100%] GeologicaFont mx-auto text-center">
             <form
               className="sm:px-[0] sm2:px-[1.5rem] sm4:px-[15px] px-0"
               ref={form}

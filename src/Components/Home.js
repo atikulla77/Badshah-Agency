@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navber from "./Navber";
 import profilePhoto from "../image/web-photo_Badsha.png";
 import bg from "../image/home_P_1.png";
@@ -16,9 +16,12 @@ import { FaUpwork } from "react-icons/fa6";
 import { FiFacebook } from "react-icons/fi";
 
 import CountUp from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
 import { Link } from "react-scroll";
+import main_image from "../image/Skype_Picture.jpeg";
 
 function Home() {
+  const [countState, setCountState] = useState();
   return (
     <div className="w-full h-full relative" name="Home">
       <Navber />
@@ -30,10 +33,13 @@ function Home() {
 
       <div className="xl:w-[1230px] w-[96%] h-[100%] flex desktop3:flex-row flex-col justify-between items-center mx-auto md:pt-[120px] pt-[85px] relative">
         <div
-          className="md:w-[60%] w-[90%] h-[100%] flex desktop3:hidden justify-center items-center z-10 overflow-hidden mx-auto"
-          data-aos="zoom-out"
+          className="md:w-[60%] w-[90%] h-[100%] flex desktop3:hidden justify-center items-center z-10 mx-auto"
+          // data-aos="zoom-out"
         >
-          <img src={profilePhoto} className="" />
+          <img
+            src={profilePhoto}
+            className="w-[95%] h-[95%] rounded-[50%] border-[7px] border-[#03BFFF] p-[7px]"
+          />
         </div>
 
         {/* ````````````````````````````````````````````````````particals```````````````````````````````````````````````````` */}
@@ -53,7 +59,7 @@ function Home() {
             <img src={partical4} className="w-[100%] h-[100%] select-none" />
           </div>
 
-          <p className="sm2:text-[19px] sm3:text-[18px] text-[16px]">
+          <p className="sm2:text-[19px] sm3:text-[18px] text-[16px] KarlaFont">
             Welcome To
           </p>
           {/* <h1 className="stext1:text-[25px] stext2:text-[22px] text-[20px]">
@@ -67,11 +73,11 @@ function Home() {
           <h1 className="stext1:text-[65px] stext2:text-[65px] sm:text-[65px] sm2:text-[55px] sm3:text-[45px] text-[35px] font-[800] desktop3:mx-[] mx-auto text-[#03BFFF] stext2:leading-[75px] sm:leading-[65px] sm2:leading-[60px] sm3:leading-[50px] leading-[36px] ml-[-5px] sm:pb-[11px] pb-[8px]">
             <span className="text-white">Badsha</span> Agency
           </h1>
-          <p className="stext2:w-[589px] sm:w-[500px] w-[98%] stext1:text-[16px] sm3:text-[15px] text-[13px] desktop3:mx-0 mx-auto leading-[25px]">
+          <p className="stext2:w-[589px] sm:w-[500px] w-[98%] stext1:text-[16px] sm3:text-[15px] text-[13px] desktop3:mx-0 mx-auto leading-[25px] KarlaFont">
             New York Besed{" "}
             <span className="font-semibold">Lead Generation Expert</span>
           </p>
-          <p className="stext2:w-[589px] sm:w-[500px] w-[98%] stext1:text-[16px] sm3:text-[15px] text-[13px] desktop3:mx-0 mx-auto sm3:leading-[25px] leading-[20px]">
+          <p className="stext2:w-[589px] sm:w-[500px] w-[98%] stext1:text-[16px] sm3:text-[15px] text-[13px] desktop3:mx-0 mx-auto sm3:leading-[25px] leading-[20px] KarlaFont">
             Im here for helping you to reach your Target. I'm well experienced
             in B2b Lead Generation, Contact List, Email list building, Prospect
             list building, and Web Research.
@@ -87,7 +93,7 @@ function Home() {
               offset={-60}
               duration={500}
               aria-current="page"
-              className="sm2:text-[15px] sm3:text-[13px] text-[11px] sm2:px-[28px] sm3:px-[23px] px-[12px] sm2:py-[10px] py-[9px] border-[2px] rounded-[50px] border-[#03BFFF] text-[#03BFFF] social_icon_hover transition-[0.3s] cursor-pointer"
+              className="sm2:text-[15px] sm3:text-[13px] text-[11px] sm2:px-[28px] sm3:px-[23px] px-[12px] sm2:py-[10px] py-[9px] border-[2px] rounded-[50px] border-[#03BFFF] text-[#03BFFF] social_icon_hover transition-[0.3s] cursor-pointer KarlaFont font-[600]"
             >
               Get Connected
             </Link>
@@ -122,10 +128,13 @@ function Home() {
           </div>
         </div>
         <div
-          className="w-[40%] h-[100%] desktop3:flex hidden justify-center items-center z-10 overflow-hidden"
-          data-aos="fade-down"
+          className="w-[40%] h-[100%] desktop3:flex hidden justify-center items-center z-10"
+          // data-aos="fade-down"
         >
-          <img src={profilePhoto} className="" />
+          <img
+            src={profilePhoto}
+            className="w-[90%] h-[90%] rounded-[50%] border-[10px] border-[#03BFFF] p-[10px]"
+          />
         </div>
 
         {/* ````````````````````````````````````````````````````particals```````````````````````````````````````````````````` */}
@@ -159,33 +168,49 @@ function Home() {
         {/* ````````````````````````````````````````````````````particals```````````````````````````````````````````````````` */}
       </div>
       <div className="relative w-full text-white">
-        <div className="xl:w-[1180px] sm:w-[100%] w-[98%] md:h-[200px] sm:h-[100px] sm2:h-[100px] sm3:h-[105px] h-[100px] flex justify-around items-center mx-auto GeologicaFont md:mt-0 mt-[40px] desktop3:pt-[50px] pt-[0px]">
-          <div className="sm2:flex block items-center sm2:text-left text-center md:w-[160px] sm:w-[145px] sm2:w-[120px] sm3:w-[85px] w-[73px]">
-            <p className="md:text-[55px] sm:text-[50px] sm2:text-[45px] sm3:text-[35px] text-[26px] font-bold sm:pr-[15px] sm2:pr-[10px] pr-0">
-              <CountUp end={7} duration={4} />
-            </p>
-            <p className="md:text-[20px] sm:text-[18px] sm3:text-[15px] text-[13px] sm:w-[105px] sm3:w-[80px] w-full sm:leading-[22px] sm3:leading-[19px] leading-[17px] sm2:mx-0 mx-auto">
-              Years of Experience
-            </p>
+        <ScrollTrigger
+          onEnter={() => setCountState(true)}
+          onExit={() => setCountState(false)}
+        >
+          <div className="xl:w-[1180px] sm:w-[100%] w-[98%] md:h-[200px] sm:h-[100px] sm2:h-[100px] sm3:h-[105px] h-[100px] flex justify-around items-center mx-auto GeologicaFont md:mt-0 mt-[40px] desktop3:pt-[50px] pt-[0px]">
+            <div className="sm2:flex block items-center sm2:text-left text-center md:w-[160px] sm:w-[145px] sm2:w-[120px] sm3:w-[85px] w-[73px]">
+              <p className="md:text-[55px] sm:text-[50px] sm2:text-[45px] sm3:text-[35px] text-[26px] font-bold sm:pr-[15px] sm2:pr-[10px] pr-0">
+                {countState && (
+                  <CountUp start={0} end={7} duration={3.75}/>
+                )}
+              </p>
+              <p className="md:text-[20px] sm:text-[18px] sm3:text-[15px] text-[13px] sm:w-[105px] sm3:w-[80px] w-full sm:leading-[22px] sm3:leading-[19px] leading-[17px] sm2:mx-0 mx-auto">
+                Years of Experience
+              </p>
+            </div>
+            <div className="sm2:flex block items-center sm2:text-left text-center md:w-[300px] sm:w-[270px] sm2:w-[232px] sm3:w-[110px] w-[83px]">
+              <p className="md:text-[55px] sm:text-[50px] sm2:text-[45px] sm3:text-[35px] text-[26px] font-bold sm:pr-[15px] sm2:pr-[10px] pr-0 flex">
+                {countState && (
+                  <CountUp start={0} end={3021} duration={3.75}/> 
+                )} +
+              </p>
+              <p className="md:text-[20px] sm:text-[18px] sm3:text-[15px] text-[13px] sm:w-[105px] sm3:w-[80px] w-full sm:leading-[22px] sm3:leading-[19px] leading-[17px] sm2:mx-0 mx-auto">
+                Project Completed
+              </p>
+            </div>
+            <div className="sm2:flex block items-center sm2:text-left text-center md:w-[200px] sm:w-[185px] sm2:w-[160px] sm3:w-[85px] w-[73px]">
+              <p className="md:text-[55px] sm:text-[50px] sm2:text-[45px] sm3:text-[35px] text-[26px] font-bold sm:pr-[15px] sm2:pr-[10px] pr-0 flex">
+                {countState && (
+                  <CountUp start={0} end={2} duration={3.75}/> 
+                )} .
+                {countState && (
+                  <CountUp start={0} end={9} duration={3.75}/> 
+                )}K
+              </p>
+              <p className="md:text-[20px] sm:text-[18px] sm3:text-[15px] text-[13px] sm:w-[105px] sm3:w-[80px] w-full sm:leading-[22px] sm3:leading-[19px] leading-[17px] sm2:mx-0 mx-auto">
+                Happy Client
+              </p>
+            </div>
           </div>
-          <div className="sm2:flex block items-center sm2:text-left text-center md:w-[300px] sm:w-[270px] sm2:w-[232px] sm3:w-[110px] w-[83px]">
-            <p className="md:text-[55px] sm:text-[50px] sm2:text-[45px] sm3:text-[35px] text-[26px] font-bold sm:pr-[15px] sm2:pr-[10px] pr-0 flex">
-              <CountUp end={3021} duration={3} /> +
-            </p>
-            <p className="md:text-[20px] sm:text-[18px] sm3:text-[15px] text-[13px] sm:w-[105px] sm3:w-[80px] w-full sm:leading-[22px] sm3:leading-[19px] leading-[17px] sm2:mx-0 mx-auto">
-              Project Completed
-            </p>
-          </div>
-          <div className="sm2:flex block items-center sm2:text-left text-center md:w-[200px] sm:w-[185px] sm2:w-[160px] sm3:w-[85px] w-[73px]">
-            <p className="md:text-[55px] sm:text-[50px] sm2:text-[45px] sm3:text-[35px] text-[26px] font-bold sm:pr-[15px] sm2:pr-[10px] pr-0">
-              <CountUp end={2} duration={4} />
-              .9K
-            </p>
-            <p className="md:text-[20px] sm:text-[18px] sm3:text-[15px] text-[13px] sm:w-[105px] sm3:w-[80px] w-full sm:leading-[22px] sm3:leading-[19px] leading-[17px] sm2:mx-0 mx-auto">
-              Happy Client
-            </p>
-          </div>
-        </div>
+        </ScrollTrigger>
+      </div>
+      <div className="xl:w-[1230px] w-[100%] px-5 mx-auto desktop3:pt-[1rem] md:pt-0 pt-[2rem] pb-[1rem] relative">
+        <img src={main_image} className="w-full object-cover" />
       </div>
     </div>
   );

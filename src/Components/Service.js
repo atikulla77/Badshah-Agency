@@ -12,6 +12,8 @@ import "./Service.css";
 import cercal_blue from "../image/carcal_blur_blue.png";
 import cercal_parple from "../image/carcal_blur_parple.png";
 
+
+
 const Service = () => {
   const serviceCardList = [
     {

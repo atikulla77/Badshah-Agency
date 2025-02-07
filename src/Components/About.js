@@ -15,7 +15,7 @@ import MOHAROM_BADSHA_CV_DONE from "../image/MOHAROM_BADSHA_CV_DONE.jpg";
 const About = () => {
   return (
     <main
-      className={`w-full h-full relative pt-[4.5rem] desktop3:pb-[3rem] pb-[1rem] GeologicaFont bg-[#1E1345]`}
+      className={`w-full h-full relative sm5:pt-[4.5rem] pt-[3.5rem] desktop3:pb-[3rem] pb-[1rem] GeologicaFont bg-[#1E1345]`}
       id="About"
     >
       <div className="w-full text-center text-white relative z-10 sm2:pb-[45px] pb-[15px]">
