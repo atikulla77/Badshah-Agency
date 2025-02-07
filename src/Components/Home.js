@@ -133,7 +133,7 @@ function Home() {
         >
           <img
             src={profilePhoto}
-            className="w-[90%] h-[90%] rounded-[50%] border-[10px] border-[#03BFFF] p-[10px]"
+            className="w-[85%] h-[85%] rounded-[50%] border-[10px] border-[#03BFFF] p-[10px]"
           />
         </div>
 

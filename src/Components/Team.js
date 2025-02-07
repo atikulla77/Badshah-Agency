@@ -154,6 +154,7 @@ const Team = () => {
               {allTeam.map((key) => {
                 return (
                   <div
+                  key={key.id}
                     className={`sm2:w-[260px] sm4:w-[230px] w-[215px] sm2:h-[265px] sm4:h-[250px] h-[225px] rounded-[15px] bg-[#26185669] sm2:mr-[20px] mr-[15px] shadow-[0px_0px_6px_0px_#0000000f]`}
                   >
                     <div
@@ -180,6 +181,7 @@ const Team = () => {
               {allTeam.map((key) => {
                 return (
                   <div
+                  key={key.id}
                     className={`sm2:w-[260px] sm4:w-[230px] w-[215px] sm2:h-[265px] sm4:h-[250px] h-[225px] rounded-[15px] bg-[#26185669] sm2:mr-[20px] mr-[15px] shadow-[0px_0px_6px_0px_#0000000f]`}
                   >
                     <div
@@ -206,6 +208,7 @@ const Team = () => {
               {allTeam.map((key) => {
                 return (
                   <div
+                  key={key.id}
                     className={`sm2:w-[260px] sm4:w-[230px] w-[215px] sm2:h-[265px] sm4:h-[250px] h-[225px] rounded-[15px] bg-[#26185669] sm2:mr-[20px] mr-[15px] shadow-[0px_0px_6px_0px_#0000000f]`}
                   >
                     <div

@@ -39,6 +39,7 @@ const WhyChooseUs = () => {
           {content.map((key) => {
             return (
               <div
+              key={key.id}
                 className={`w-[290px] h-[250px] relative flex justify-center items-center overflow-hidden bg-[#26185669] rounded-[20px] mx-auto why_choose_us_box`}
                 data-aos="flip-up"
               >

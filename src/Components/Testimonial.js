@@ -105,6 +105,7 @@ const Testimonial = () => {
             {TestimonialClint.map((key) => {
               return (
                 <div
+                key={key.id}
                   className="sm:px-[10px] px-0 w-[100%] my-[10px]"
                   data-aos="fade-right"
                 >
