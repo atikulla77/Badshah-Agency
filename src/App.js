@@ -19,22 +19,19 @@ function App() {
   }, 2500);
 
   return (
-    <div className="w-full h-full ">
-            {showLodding ? (
-        <Lodding />
-      ) : (
+    <div className="w-full h-full relative">
       <div className="w-full h-full">
+        {showLodding ? <Lodding /> : <></>}
         <Home />
-      <About />
-      <Service/>
-      <WhyChooseUs/>
-      <Team />
-      <Protfolio/>
-      <Testimonial />
-      <Contact />
-      <Footer />
+        <About />
+        <Service />
+        <WhyChooseUs />
+        <Team />
+        <Protfolio />
+        <Testimonial />
+        <Contact />
+        <Footer />
       </div>
-      )}
     </div>
   );
 }
