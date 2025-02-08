@@ -118,7 +118,7 @@ function Home() {
         </div>
         <div
           className="w-[40%] h-[100%] desktop3:flex hidden justify-center items-center z-10"
-          data-aos="fade-down"
+          data-aos="fade-left"
         >
           <img
             src={profilePhoto}
