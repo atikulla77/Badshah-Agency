@@ -34,7 +34,7 @@ function Home() {
       <div className="xl:w-[1230px] w-[96%] h-[100%] flex desktop3:flex-row flex-col justify-between items-center mx-auto md:pt-[120px] pt-[85px] relative">
         <div
           className="md:w-[60%] w-[90%] h-[100%] flex desktop3:hidden justify-center items-center z-10 mx-auto"
-          // data-aos="zoom-out"
+          data-aos="zoom-out"
         >
           <img
             src={profilePhoto}
@@ -62,14 +62,6 @@ function Home() {
           <p className="sm2:text-[19px] sm3:text-[18px] text-[16px] KarlaFont">
             Welcome To
           </p>
-          {/* <h1 className="stext1:text-[25px] stext2:text-[22px] text-[20px]">
-            Hello Buyers,
-          </h1> */}
-
-          {/* <h1 className="stext1:text-[42px] stext2:text-[39px] sm2:text-[35px] text-[30px] font-[800] stext2:w-full desktop3:w-[545px] sm:w-[545px] w-full desktop3:mx-0 mx-auto">
-            I am A{" "}
-            <span className="text-[#03BFFF]">Lead Generation Expert.</span>
-          </h1> */}
           <h1 className="stext1:text-[65px] stext2:text-[65px] sm:text-[65px] sm2:text-[55px] sm3:text-[45px] text-[35px] font-[800] desktop3:mx-[] mx-auto text-[#03BFFF] stext2:leading-[75px] sm:leading-[65px] sm2:leading-[60px] sm3:leading-[50px] leading-[36px] ml-[-5px] sm:pb-[11px] pb-[8px]">
             <span className="text-white">Badsha</span> Agency
           </h1>
@@ -82,9 +74,6 @@ function Home() {
             in B2b Lead Generation, Contact List, Email list building, Prospect
             list building, and Web Research.
           </p>
-          {/* <p className="stext2:w-[589px] sm:w-[500px] w-[98%] stext1:text-[16px] text-[15px] desktop3:mx-0 mx-auto leading-[25px]">
-            New York Besed <span className="font-semibold">Lead Generation Expert</span>
-          </p> */}
           <div className="flex desktop3:justify-start justify-center items-center pt-[20px] desktop3:mx-0 mx-auto">
             <Link
               to="Contact"
@@ -129,7 +118,7 @@ function Home() {
         </div>
         <div
           className="w-[40%] h-[100%] desktop3:flex hidden justify-center items-center z-10"
-          // data-aos="fade-down"
+          data-aos="fade-down"
         >
           <img
             src={profilePhoto}
