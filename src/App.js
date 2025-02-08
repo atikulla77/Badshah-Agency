@@ -16,7 +16,7 @@ function App() {
 
   setTimeout(() => {
     setshowLodding(false);
-  }, 2500);
+  }, 1500);
 
   return (
     <div className="w-full h-full relative">
